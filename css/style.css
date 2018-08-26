@@ -472,6 +472,8 @@ p {
 #home h1 {
   line-height: 40px;
   letter-spacing: 0.6px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 #home .typed {
   font-weight: 400;
