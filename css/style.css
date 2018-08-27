@@ -753,6 +753,7 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: #f15a29;
+  height: 539px;
 }
 .card:before,
 .card:after {
@@ -778,6 +779,10 @@ ul.portfolio-image li .desc{
 .card:hover:after,
 .card:hover:before {
   -webkit-transform: scaleY(1);
+}
+.job-description li{
+  font-size: 13px;
+  padding: 5px 0;
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
