@@ -62,7 +62,7 @@ body {
   background-color: #fff;
 }
 a {
-  color: #2f2f2f;
+  color: #f15a29;
   text-decoration: none;
   transition: ease .6s;
   -webkit-transition: ease .6s;
@@ -133,7 +133,7 @@ img { max-width: 100%; }
   position: absolute;
   bottom: -20px;
   height: 3px;
-  background: #DEDEDE;
+  background: #f15a29;
   width: 28px;
   left: 0;
 }
@@ -461,7 +461,7 @@ h3,
 h4,
 h5 {
   letter-spacing: 0.8px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   letter-spacing: 0.5px;
@@ -472,6 +472,8 @@ p {
 #home h1 {
   line-height: 40px;
   letter-spacing: 0.6px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 #home .typed {
   font-weight: 400;
@@ -493,13 +495,13 @@ p {
   line-height: 14px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #cccccc;
+  color: #808080;
 }
 .company {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
-  border: 1px solid #ececec;
-  color: #cccccc;
+  border: 1px solid #f15a29;
+  color: #808080;
   padding:8px 10px;
   border-radius: 6px;
   display: inline-block;
@@ -712,7 +714,7 @@ ul.portfolio-image li .desc{
 /*---------- c. experience -----------*/
 .wrap-card {
   position: relative;
-  box-shadow: 0px 0px 0px #818181;
+  box-shadow: 0px 0px 0px #f15a29;
   transition: all 0.2s ease 0s;
   -webkit-transform: translateY(0px) translateX(0px);
 }
@@ -723,7 +725,7 @@ ul.portfolio-image li .desc{
   content: " ";
   width: 100%;
   height: 3px;
-  background: #818181;
+  background: #f15a29;
   -webkit-transform: scaleX(0);
   transition: all 0.2s ease;
 }
@@ -738,7 +740,7 @@ ul.portfolio-image li .desc{
   -webkit-transform-origin: 100% 0;
 }
 .wrap-card:hover {
-  box-shadow: 20px 20px 0px #818181;
+  box-shadow: 20px 20px 0px #f15a29;
   -webkit-transform: translateY(-10px) translateX(-10px);
   transition: all 0.2s ease 0.4s;
 }
@@ -750,7 +752,8 @@ ul.portfolio-image li .desc{
   background: #ffffff;
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
-  border: 1px solid rgba(129, 129, 129, 0.1);
+  border: #f15a29;
+  height: 539px;
 }
 .card:before,
 .card:after {
@@ -759,7 +762,7 @@ ul.portfolio-image li .desc{
   content: " ";
   width: 3px;
   height: 100%;
-  background: #818181;
+  background: #f15a29;
   -webkit-transform: scaleY(0);
   transition: all 0.2s ease 0.2s;
 }
@@ -777,9 +780,13 @@ ul.portfolio-image li .desc{
 .card:hover:before {
   -webkit-transform: scaleY(1);
 }
+.job-description li{
+  font-size: 13px;
+  padding: 5px 0;
+}
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/testimonial-bg.jpg);
+  background-image: url(../images/testimonial.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -915,9 +922,13 @@ ul.portfolio-image li .desc{
   min-height: 650px;
   display: inline-block;
   width: 100%;
+  background: #f6f6f6;
 }
 .about-me {
   padding:40px;
+}
+.about-me--text-container {
+  margin-top: 40px;
 }
 .about-me--text {
   font-size:16px;
@@ -1145,7 +1156,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 100%;
   font-size: 13px;
 }
 
@@ -1153,6 +1164,7 @@ ul.portfolio-image li .desc{
   padding: 0.3em 0.8em;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
+  font-size: 16px;
   display: inline-block;
   letter-spacing: 1px;
   margin: 0;
@@ -1198,7 +1210,7 @@ ul.portfolio-image li .desc{
   /*padding: 20px 0;*/
 }
 .facebook a:after{
-  background-color: #527bbb;
+  background-color: #f15a29;
 }
 .twitter{
   background: #ABABAB;
@@ -1239,7 +1251,7 @@ ul.portfolio-image li .desc{
   width: 0px;
   position: relative;
 }
-.skillst .count-bar {background-color: #818181;}
+.skillst .count-bar {background-color: #f15a29;}
 .skillst .count-bar span{ font-size: 12px;}
 .skillst .title {
   position: absolute;
