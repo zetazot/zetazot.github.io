@@ -753,8 +753,45 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: #f15a29;
-  height: 539px;
+  min-height: 565px;
+  max-height: 595px;
 }
+.education-card {
+  height: 300px !important;
+  background: #ffffff;
+  padding: 30px 35px 45px 35px;
+  margin-bottom: 30px;
+  border: #f15a29;
+}
+
+.education-card:before,
+.education-card:after {
+  display: inline-block;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  height: 100%;
+  background: #f15a29;
+  -webkit-transform: scaleY(0);
+  transition: all 0.2s ease 0.2s;
+}
+
+.education-card:before {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 100%;
+}
+
+.education-card:after {
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 0;
+}
+.education-card:hover:after,
+.education-card:hover:before {
+  -webkit-transform: scaleY(1);
+}
+
 .card:before,
 .card:after {
   display: inline-block;
