@@ -495,13 +495,13 @@ p {
   line-height: 14px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #cccccc;
+  color: #808080;
 }
 .company {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
-  border: 1px solid #ececec;
-  color: #cccccc;
+  border: 1px solid #f15a29;
+  color: #808080;
   padding:8px 10px;
   border-radius: 6px;
   display: inline-block;
@@ -917,9 +917,13 @@ ul.portfolio-image li .desc{
   min-height: 650px;
   display: inline-block;
   width: 100%;
+  background: #f6f6f6;
 }
 .about-me {
   padding:40px;
+}
+.about-me--text-container {
+  margin-top: 40px;
 }
 .about-me--text {
   font-size:16px;
@@ -1147,7 +1151,7 @@ ul.portfolio-image li .desc{
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 100%;
   font-size: 13px;
 }
 
@@ -1155,6 +1159,7 @@ ul.portfolio-image li .desc{
   padding: 0.3em 0.8em;
   color: rgba(255, 255, 255, 0.7);
   position: relative;
+  font-size: 16px;
   display: inline-block;
   letter-spacing: 1px;
   margin: 0;
@@ -1200,7 +1205,7 @@ ul.portfolio-image li .desc{
   /*padding: 20px 0;*/
 }
 .facebook a:after{
-  background-color: #527bbb;
+  background-color: #f15a29;
 }
 .twitter{
   background: #ABABAB;
