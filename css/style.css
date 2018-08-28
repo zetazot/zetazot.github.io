@@ -1043,7 +1043,7 @@ ul.portfolio-image li .desc{
 }
 #contact .group {
   position: relative;
-  margin-bottom: 65px;
+  
 }
 #contact input,
 #contact textarea {
@@ -1066,7 +1066,7 @@ ul.portfolio-image li .desc{
   color: #2b2b2b;
   font-size: 14px;
   font-weight: normal;
-  position: absolute;
+  
   pointer-events: none;
   left: 5px;
   top: 10px;

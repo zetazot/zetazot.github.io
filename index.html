@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124639889-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124639889-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-124639889-1');
-</script>
+    gtag('config', 'UA-124639889-1');
+    </script>
     <meta charset="utf-8">
     <title>Sean Maroney</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -20,7 +20,13 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Sean Maroney" />
     <meta property="og:description" content="Designer | Brand Specialist | Photography Director" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="http://zetazot.com/images/openGraphImage.jpg" />
+    <!--Jotform-->
+    <link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F82383636785167" title="oEmbed Form"><link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F82383636785167" title="oEmbed Form">
+    <link rel="canonical" href="https://form.jotform.us/82383636785167" />
+    <link type="text/css" rel="stylesheet" href="css/form.css" />
+    <link type="text/css" rel="stylesheet" href="css/nova.css" />
+
     <!--Fav-->
     <link href="favicon.ico" rel="shortcut icon">
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
@@ -52,6 +58,21 @@
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
+    <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+    <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.7332" type="text/javascript"></script>
+    <script type="text/javascript">
+        JotForm.init(function(){
+            JotForm.alterTexts(undefined);
+	        JotForm.clearFieldOnHide="disable";
+	        JotForm.submitError="jumpToFirstError";
+            /*INIT-END*/
+        });
+
+        JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"Contact Form","type":"control_head"},{"name":"submit2","qid":"2","text":"Send","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"message","qid":"5","subLabel":"","text":"Message","type":"control_textarea"}]);
+        setTimeout(function() {
+        JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Contact Form","type":"control_head"},{"name":"submit2","qid":"2","text":"Send","type":"control_button"},{"description":"","name":"name","qid":"3","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"4","subLabel":"example@example.com","text":"Email","type":"control_email"},{"description":"","name":"message","qid":"5","subLabel":"","text":"Message","type":"control_textarea"}]);}, 20); 
+    </script>
+
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <![endif]-->
@@ -858,19 +879,62 @@ and an online auction house
 
               </div>
               <div class="col-md-9 content-right">
-                <form action="https://formspree.io/aimee.maroney@gmail.com"
-                method="POST">
-                  <div class="group">
-                    <input required="" type="text" name="name"><span class="highlight"></span><span class="bar"></span><label>Name</label>
-                  </div>
-                  <div class="group">
-                    <input required="" type="email" name="_replyto"><span class="highlight"></span><span class="bar"></span><label>Email</label>
-                  </div>
-                  <div class="group">
-                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
-                  </div>
-                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
-                </form>
+
+                <form class="jotform-form" action="https://submit.jotform.us/submit/82383636785167/" method="post" name="form_82383636785167" id="82383636785167" accept-charset="utf-8">
+                    <input type="hidden" name="formID" value="82383636785167" />
+                    <div class="form-all">
+                      <ul class="form-section page-section">
+                        
+                        <li class="form-line" data-type="control_textbox" id="id_6">
+                            <div class="group">
+                                <label  id="label_6" for="input_6"> Name </label>
+                                <div id="cid_6" class="form-input-wide">
+                                    <input type="text" id="input_6" name="q6_name" data-type="input-textbox" class="form-textbox" size="20" value="" data-component="textbox" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_email" id="id_4">
+                            <div class="group">
+                                <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Email </label>
+                                <div id="cid_4" class="form-input-wide">
+                                    <span class="form-sub-label-container" style="vertical-align:top">
+                                    <input type="email" id="input_4" name="q4_email" class="form-textbox validate[Email]" size="30" value="" data-component="email" />
+                                    
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_textarea" id="id_5">
+                            <div class="group">
+                                <label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> Message </label>
+                                <div id="cid_5" class="form-input-wide">
+                                    <textarea id="input_5" class="form-textarea" name="q5_message" cols="40" rows="6" data-component="textarea"></textarea>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="form-line" data-type="control_button" id="id_2">
+                          <div id="cid_2" class="form-input-wide">
+                                <input id="input_2" name="sendMessage" type="submit" value="Send Message">
+                              
+                          </div>
+                        </li>
+                        <li style="display:none">
+                          Should be Empty:
+                          <input type="text" name="website" value="" />
+                        </li>
+                      </ul>
+                    </div>
+                  
+                    <script>
+                      JotForm.showJotFormPowered = "new_footer";
+                    </script>
+                    <input type="hidden" id="simple_spc" name="simple_spc" value="82383636785167" />
+                    <script type="text/javascript">
+                      document.getElementById("si" + "mple" + "_spc").value = "82383636785167-82383636785167";
+                    </script>
+                    
+                    
+                  </form>
               </div>
             </div>
           </div>
@@ -915,5 +979,6 @@ and an online auction house
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
     <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script type="text/javascript">JotForm.ownerView=true;</script>
   </body>
 </html>
