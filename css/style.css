@@ -688,6 +688,20 @@ ul.portfolio-image li .desc{
   font-weight: 700;
 }
 
+.download-button {
+  background-color: #f15a29;
+  color: #FFF;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #434343;
+}
+
+.button-container {
+  margin-top: 30px;
+}
 
 /*---------- b. service -----------*/
 .icon-use {
