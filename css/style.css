@@ -1324,3 +1324,15 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+.thank-you{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:40px;
+  text-align: center;
+  min-height: 800px;
+}
+.thank-you--text{
+  font-size: 16px;
+}
