@@ -654,7 +654,7 @@ ul.portfolio-image li .decription-wrap {
 ul.portfolio-image li .image-bg {
   color: #2f2f2f;
   background: #ffffff;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   text-transform: uppercase;
   width: 100%;
